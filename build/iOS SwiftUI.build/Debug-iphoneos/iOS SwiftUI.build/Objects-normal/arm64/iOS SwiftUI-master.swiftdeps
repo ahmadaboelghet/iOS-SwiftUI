@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "bb98b58d6cd1ae35fdf6d8049ca01f844f002c564d828d99eba085545dcbc84e"
+build_start_time: [1694501265, 303866000]
+build_end_time: [1694501266, 877113000]
+inputs:
+  "/Users/aboelghet/Desktop/ITI \U0001F9D7\U0001F947/iOS SwiftUI/iOS SwiftUI/ContentView.swift": [1694501264, 366970615]
+  "/Users/aboelghet/Desktop/ITI \U0001F9D7\U0001F947/iOS SwiftUI/iOS SwiftUI/iOS_SwiftUIApp.swift": [1694499940, 290173523]

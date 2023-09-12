@@ -1,0 +1,103 @@
+{
+  "buildCommand" : {
+    "command" : "preview"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c803aec1cdd6f24758bddbeaf130df689e08d3408f38f14723a7be108c3e9507",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator16.4",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "",
+          "buildProductsPath" : "",
+          "derivedDataPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Index.noindex/PrecompiledHeaders",
+          "pchPath" : ""
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,3",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Previews/iOS SwiftUI/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Previews/iOS SwiftUI/Intermediates.noindex",
+              "SYMROOT" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Previews/iOS SwiftUI/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "01B50F4B-1D7D-4B61-B2C9-6D9AEE9C7C11",
+              "TARGET_DEVICE_MODEL" : "iPhone15,3",
+              "TARGET_DEVICE_OS_VERSION" : "16.4",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/aboelghet/Desktop/ITI 🧗🥇/iOS SwiftUI/iOS SwiftUI.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/aboelghet/Library/Developer/Xcode/DerivedData/iOS_SwiftUI-abqtlmhtogwgercayqzvcnzsawhu/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "01B50F4B-1D7D-4B61-B2C9-6D9AEE9C7C11",
+          "TARGET_DEVICE_MODEL" : "iPhone15,3",
+          "TARGET_DEVICE_OS_VERSION" : "16.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
