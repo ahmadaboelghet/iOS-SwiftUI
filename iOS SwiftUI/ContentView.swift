@@ -8,28 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    let matrix: [[String]] = [
-        ["lemon", "lemon", "lemon"],
-        ["lemon", "lemon", "lemon"],
-        ["lemon", "lemon", "lemon"]
-    ]
-    
     var body: some View {
-        VStack {
-            ForEach(0..<matrix.count, id: \.self) { row in
-                HStack {
-                    ForEach(0..<matrix[row].count, id: \.self) { col in
-                        Image(matrix[row][col])
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 120, height: 120)
-                    }
+        ZStack {
+            Image("background") // Replace with your image name
+                .scaledToFill()
+            
+            Text("Energize with this healthy and hearty breakfast")
+                .font(.headline)
+                .foregroundColor(.black)
+                .frame(width: 380, height: 30)
+                .position(x: 325, y: 900)
+            
+            HStack {
+                Spacer()
+                Button("ay 7aga") {
+                    // Add your button action here
                 }
+                .font(.system(size: 20, weight: .bold))
+                .foregroundColor(.black)
+                .padding(.trailing, 20) // Adjust the padding to position it at the top right
             }
         }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
